@@ -1,0 +1,279 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "mfem",
+  "evidence": {
+    "core_skills": [
+      "mfem-build-and-install",
+      "mfem-tests",
+      "mfem-miniapps",
+      "mfem-inputs-and-modeling",
+      "mfem-getting-started",
+      "mfem-examples-and-tutorials"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/mfem-build-and-install.md",
+      "skills/.evidence/mfem-tests.md",
+      "skills/.evidence/mfem-miniapps.md",
+      "skills/.evidence/mfem-inputs-and-modeling.md",
+      "skills/.evidence/mfem-getting-started.md",
+      "skills/.evidence/mfem-examples-and-tutorials.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [],
+      "changed": [
+        "skills/mfem-build-and-install/SKILL.md",
+        "skills/mfem-examples-and-tutorials/SKILL.md",
+        "skills/mfem-getting-started/SKILL.md",
+        "skills/mfem-index/SKILL.md",
+        "skills/mfem-inputs-and-modeling/SKILL.md",
+        "skills/mfem-miniapps/SKILL.md",
+        "skills/mfem-tests/SKILL.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/mfem-build-and-install/SKILL.md",
+        "skills/mfem-examples-and-tutorials/SKILL.md",
+        "skills/mfem-getting-started/SKILL.md",
+        "skills/mfem-index/SKILL.md",
+        "skills/mfem-inputs-and-modeling/SKILL.md",
+        "skills/mfem-miniapps/SKILL.md",
+        "skills/mfem-tests/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/mfem-index/references/doc_map.md",
+        "skills/mfem-index/references/source_map.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/mfem-build-and-install/references/doc_map.md",
+        "skills/mfem-build-and-install/references/source_map.md",
+        "skills/mfem-examples-and-tutorials/references/doc_map.md",
+        "skills/mfem-examples-and-tutorials/references/source_map.md",
+        "skills/mfem-getting-started/SKILL.md",
+        "skills/mfem-getting-started/references/doc_map.md",
+        "skills/mfem-getting-started/references/source_map.md",
+        "skills/mfem-index/SKILL.md",
+        "skills/mfem-index/references/doc_map.md",
+        "skills/mfem-index/references/source_map.md",
+        "skills/mfem-inputs-and-modeling/references/doc_map.md",
+        "skills/mfem-inputs-and-modeling/references/source_map.md",
+        "skills/mfem-miniapps/references/doc_map.md",
+        "skills/mfem-miniapps/references/source_map.md",
+        "skills/mfem-tests/references/doc_map.md",
+        "skills/mfem-tests/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/mfem-build-and-install/references/doc_map.md",
+        "skills/mfem-build-and-install/references/source_map.md",
+        "skills/mfem-examples-and-tutorials/references/doc_map.md",
+        "skills/mfem-examples-and-tutorials/references/source_map.md",
+        "skills/mfem-getting-started/SKILL.md",
+        "skills/mfem-getting-started/references/doc_map.md",
+        "skills/mfem-getting-started/references/source_map.md",
+        "skills/mfem-index/SKILL.md",
+        "skills/mfem-inputs-and-modeling/references/doc_map.md",
+        "skills/mfem-inputs-and-modeling/references/source_map.md",
+        "skills/mfem-miniapps/references/doc_map.md",
+        "skills/mfem-miniapps/references/source_map.md",
+        "skills/mfem-tests/references/doc_map.md",
+        "skills/mfem-tests/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Core library source roots are declared in CMakeLists.txt as general,linalg,mesh,fem.",
+      "Top-level documentation files (README.md, INSTALL, CONTRIBUTING.md) are at repo root and should be referenced during enrichment.",
+      "Explicit source_dirs are required because default generator source auto-discovery expects src/lib-style layouts."
+    ],
+    "package_name": "mfem",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "config",
+      "fem",
+      "general",
+      "linalg",
+      "mesh",
+      "miniapps"
+    ],
+    "test_dirs": [
+      "tests"
+    ],
+    "tutorial_dirs": [
+      "examples",
+      "miniapps"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mfem-mfem",
+  "run_id": "compile_20260305T015100129084Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "mfem-build-and-install",
+      "mfem-examples-and-tutorials",
+      "mfem-getting-started",
+      "mfem-index",
+      "mfem-inputs-and-modeling",
+      "mfem-miniapps",
+      "mfem-tests"
+    ],
+    "core_skill_ids": [
+      "mfem-build-and-install",
+      "mfem-tests",
+      "mfem-miniapps",
+      "mfem-inputs-and-modeling",
+      "mfem-getting-started",
+      "mfem-examples-and-tutorials"
+    ],
+    "deferred_gaps": [
+      "Top-level docs files are outside docs_dirs and should be manually linked in enriched skills.",
+      "Python bindings (PyMFEM) are not part of this repository and need explicit out-of-repo routing if asked.",
+      "Topic clustering may overemphasize CMakeLists-heavy trees because formal narrative docs are sparse."
+    ],
+    "goal": "Generate and enrich a docs-first MFEM skills set with strong build, run, and HPC routing.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Route build/install, usage, HPC, and troubleshooting requests to the right topic skill.",
+          "Enforce docs-first lookup before source inspection."
+        ],
+        "reason": "Keeps routing deterministic across sparse formal docs and large examples/miniapps trees.",
+        "skill_id": "mfem-index",
+        "source_hints": [
+          "doc",
+          "examples",
+          "miniapps",
+          "tests",
+          "fem",
+          "linalg",
+          "mesh",
+          "general"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Document make and CMake build paths with key toggles.",
+          "Cover MPI/GPU/TPL enablement and typical build failure triage."
+        ],
+        "reason": "Build configuration and optional TPL/HPC backends are a common user blocker.",
+        "skill_id": "mfem-build-and-install",
+        "source_hints": [
+          "INSTALL",
+          "CMakeLists.txt",
+          "config/cmake",
+          "makefile",
+          "tests/gitlab/README.md"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Minimal serial and MPI run paths.",
+          "Mesh/data prerequisites and basic output visualization path."
+        ],
+        "reason": "High-impact first-run workflow for new users is centered on examples and miniapps.",
+        "skill_id": "mfem-getting-started",
+        "source_hints": [
+          "README.md",
+          "doc/README",
+          "examples",
+          "miniapps",
+          "data"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Choose between examples and miniapps for a task.",
+          "Capture common runtime option patterns and validation checkpoints."
+        ],
+        "reason": "A consolidated run/restart/validation playbook reduces repeated guidance work.",
+        "skill_id": "mfem-tests",
+        "source_hints": [
+          "examples",
+          "miniapps/solvers",
+          "miniapps/electromagnetics",
+          "tests/convergence"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "mfem-tests",
+      "mfem-miniapps",
+      "mfem-inputs-and-modeling",
+      "mfem-getting-started",
+      "mfem-examples-and-tutorials",
+      "mfem-build-and-install"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mfem-mfem/skills/mfem-examples-and-tutorials/references/source_map.md: broken path references: ex1.cpp, ex1p.cpp, ex2p.cpp",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mfem-mfem/skills/mfem-inputs-and-modeling/references/source_map.md: broken path references: generate_random_field.cpp, lor_solvers.cpp, plor_solvers.cpp, lor_elast.cpp",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mfem-mfem/skills/mfem-tests/references/source_map.md: broken path references: rates.cpp, prates.cpp"
+    ],
+    "index_skills": [
+      "mfem-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "mfem-index",
+      "mfem-build-and-install",
+      "mfem-getting-started",
+      "mfem-tests"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 7,
+    "source_inventory": {},
+    "source_links_total": 89,
+    "topic_skills": 6,
+    "warnings": []
+  }
+}
